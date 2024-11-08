@@ -9,8 +9,8 @@ headers = [
     "Label"
 ]
 
-train_data = pd.read_csv("datasets/bank-note/train.csv", header=None, names=headers)
-test_data = pd.read_csv("datasets/bank-note/test.csv", header=None, names=headers)
+train_data = pd.read_csv("bank-note/train.csv", header=None, names=headers)
+test_data = pd.read_csv("bank-note/test.csv", header=None, names=headers)
 
 X_train = train_data.iloc[:, :-1].values
 y_train = train_data.iloc[:, -1].values
