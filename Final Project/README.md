@@ -1,4 +1,4 @@
-##ML techniques used
+# ML techniques used
 
 Random Forest on income dataset: python3 randomforest.py
 
