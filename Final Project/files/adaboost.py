@@ -6,8 +6,8 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.metrics import roc_auc_score, classification_report
 
 
-train_df = pd.read_csv('files/train_final.csv')
-test_df = pd.read_csv('files/test_final.csv')
+train_df = pd.read_csv('train_final.csv')
+test_df = pd.read_csv('test_final.csv')
 
 
 train_df.replace('?', np.nan, inplace=True)
